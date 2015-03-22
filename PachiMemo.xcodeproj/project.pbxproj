@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3A2D0CE1ABE8A1700A34EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A2D0CD1ABE8A1700A34EDE /* AppDelegate.swift */; };
+		A3A2D0D01ABE8A1700A34EDE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A2D0CF1ABE8A1700A34EDE /* RootViewController.swift */; };
+		A3A2D0D21ABE8A1700A34EDE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A2D0D11ABE8A1700A34EDE /* DataViewController.swift */; };
+		A3A2D0D41ABE8A1700A34EDE /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A2D0D31ABE8A1700A34EDE /* ModelController.swift */; };
+		A3A2D0D71ABE8A1700A34EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A2D0D51ABE8A1700A34EDE /* Main.storyboard */; };
+		A3A2D0D91ABE8A1700A34EDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A2D0D81ABE8A1700A34EDE /* Images.xcassets */; };
+		A3A2D0DC1ABE8A1700A34EDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2D0DA1ABE8A1700A34EDE /* LaunchScreen.xib */; };
+		A3A2D0E81ABE8A1700A34EDE /* PachiMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A2D0E71ABE8A1700A34EDE /* PachiMemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3A2D0E21ABE8A1700A34EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A2D0C01ABE8A1600A34EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A2D0C71ABE8A1600A34EDE;
+			remoteInfo = PachiMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3A2D0C81ABE8A1600A34EDE /* PachiMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PachiMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A2D0CC1ABE8A1700A34EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A2D0CD1ABE8A1700A34EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3A2D0CF1ABE8A1700A34EDE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A3A2D0D11ABE8A1700A34EDE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		A3A2D0D31ABE8A1700A34EDE /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		A3A2D0D61ABE8A1700A34EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3A2D0D81ABE8A1700A34EDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3A2D0DB1ABE8A1700A34EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3A2D0E11ABE8A1700A34EDE /* PachiMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PachiMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A2D0E61ABE8A1700A34EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A2D0E71ABE8A1700A34EDE /* PachiMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PachiMemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A2D0C51ABE8A1600A34EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A2D0DE1ABE8A1700A34EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A2D0BF1ABE8A1600A34EDE = {
+			isa = PBXGroup;
+			children = (
+				A3A2D0CA1ABE8A1600A34EDE /* PachiMemo */,
+				A3A2D0E41ABE8A1700A34EDE /* PachiMemoTests */,
+				A3A2D0C91ABE8A1600A34EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A2D0C91ABE8A1600A34EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2D0C81ABE8A1600A34EDE /* PachiMemo.app */,
+				A3A2D0E11ABE8A1700A34EDE /* PachiMemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A2D0CA1ABE8A1600A34EDE /* PachiMemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2D0CD1ABE8A1700A34EDE /* AppDelegate.swift */,
+				A3A2D0CF1ABE8A1700A34EDE /* RootViewController.swift */,
+				A3A2D0D11ABE8A1700A34EDE /* DataViewController.swift */,
+				A3A2D0D31ABE8A1700A34EDE /* ModelController.swift */,
+				A3A2D0D51ABE8A1700A34EDE /* Main.storyboard */,
+				A3A2D0D81ABE8A1700A34EDE /* Images.xcassets */,
+				A3A2D0DA1ABE8A1700A34EDE /* LaunchScreen.xib */,
+				A3A2D0CB1ABE8A1600A34EDE /* Supporting Files */,
+			);
+			path = PachiMemo;
+			sourceTree = "<group>";
+		};
+		A3A2D0CB1ABE8A1600A34EDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2D0CC1ABE8A1700A34EDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3A2D0E41ABE8A1700A34EDE /* PachiMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2D0E71ABE8A1700A34EDE /* PachiMemoTests.swift */,
+				A3A2D0E51ABE8A1700A34EDE /* Supporting Files */,
+			);
+			path = PachiMemoTests;
+			sourceTree = "<group>";
+		};
+		A3A2D0E51ABE8A1700A34EDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2D0E61ABE8A1700A34EDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A2D0C71ABE8A1600A34EDE /* PachiMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A2D0EB1ABE8A1700A34EDE /* Build configuration list for PBXNativeTarget "PachiMemo" */;
+			buildPhases = (
+				A3A2D0C41ABE8A1600A34EDE /* Sources */,
+				A3A2D0C51ABE8A1600A34EDE /* Frameworks */,
+				A3A2D0C61ABE8A1600A34EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PachiMemo;
+			productName = PachiMemo;
+			productReference = A3A2D0C81ABE8A1600A34EDE /* PachiMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3A2D0E01ABE8A1700A34EDE /* PachiMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A2D0EE1ABE8A1700A34EDE /* Build configuration list for PBXNativeTarget "PachiMemoTests" */;
+			buildPhases = (
+				A3A2D0DD1ABE8A1700A34EDE /* Sources */,
+				A3A2D0DE1ABE8A1700A34EDE /* Frameworks */,
+				A3A2D0DF1ABE8A1700A34EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A2D0E31ABE8A1700A34EDE /* PBXTargetDependency */,
+			);
+			name = PachiMemoTests;
+			productName = PachiMemoTests;
+			productReference = A3A2D0E11ABE8A1700A34EDE /* PachiMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A2D0C01ABE8A1600A34EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "長山了太";
+				TargetAttributes = {
+					A3A2D0C71ABE8A1600A34EDE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A3A2D0E01ABE8A1700A34EDE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A3A2D0C71ABE8A1600A34EDE;
+					};
+				};
+			};
+			buildConfigurationList = A3A2D0C31ABE8A1600A34EDE /* Build configuration list for PBXProject "PachiMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3A2D0BF1ABE8A1600A34EDE;
+			productRefGroup = A3A2D0C91ABE8A1600A34EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A2D0C71ABE8A1600A34EDE /* PachiMemo */,
+				A3A2D0E01ABE8A1700A34EDE /* PachiMemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A2D0C61ABE8A1600A34EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2D0D71ABE8A1700A34EDE /* Main.storyboard in Resources */,
+				A3A2D0DC1ABE8A1700A34EDE /* LaunchScreen.xib in Resources */,
+				A3A2D0D91ABE8A1700A34EDE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A2D0DF1ABE8A1700A34EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A2D0C41ABE8A1600A34EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2D0D01ABE8A1700A34EDE /* RootViewController.swift in Sources */,
+				A3A2D0D41ABE8A1700A34EDE /* ModelController.swift in Sources */,
+				A3A2D0D21ABE8A1700A34EDE /* DataViewController.swift in Sources */,
+				A3A2D0CE1ABE8A1700A34EDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A2D0DD1ABE8A1700A34EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2D0E81ABE8A1700A34EDE /* PachiMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3A2D0E31ABE8A1700A34EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A2D0C71ABE8A1600A34EDE /* PachiMemo */;
+			targetProxy = A3A2D0E21ABE8A1700A34EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3A2D0D51ABE8A1700A34EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3A2D0D61ABE8A1700A34EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3A2D0DA1ABE8A1700A34EDE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3A2D0DB1ABE8A1700A34EDE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3A2D0E91ABE8A1700A34EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3A2D0EA1ABE8A1700A34EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3A2D0EC1ABE8A1700A34EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PachiMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3A2D0ED1ABE8A1700A34EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PachiMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3A2D0EF1ABE8A1700A34EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PachiMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PachiMemo.app/PachiMemo";
+			};
+			name = Debug;
+		};
+		A3A2D0F01ABE8A1700A34EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PachiMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PachiMemo.app/PachiMemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A2D0C31ABE8A1600A34EDE /* Build configuration list for PBXProject "PachiMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A2D0E91ABE8A1700A34EDE /* Debug */,
+				A3A2D0EA1ABE8A1700A34EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A2D0EB1ABE8A1700A34EDE /* Build configuration list for PBXNativeTarget "PachiMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A2D0EC1ABE8A1700A34EDE /* Debug */,
+				A3A2D0ED1ABE8A1700A34EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3A2D0EE1ABE8A1700A34EDE /* Build configuration list for PBXNativeTarget "PachiMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A2D0EF1ABE8A1700A34EDE /* Debug */,
+				A3A2D0F01ABE8A1700A34EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A2D0C01ABE8A1600A34EDE /* Project object */;
+}
